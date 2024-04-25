@@ -1,0 +1,44 @@
+/* body{
+    background-color: #BEADFA;
+}
+
+form{
+    text-align: center;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+
+fieldset {
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 40%;
+}
+
+legend {
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    padding: 5px;
+    width: 90%;
+}
+
+button {
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
